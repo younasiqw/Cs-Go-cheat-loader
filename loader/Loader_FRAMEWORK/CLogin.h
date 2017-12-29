@@ -18,7 +18,7 @@ public:
 	BOOL IsOutdated();		
 private:
 	login m_login;			
-	std::string aes_key = Your aes_key; //change
-	std::string aes_iv = Your aes_iv; //change
+	std::string aes_key = "Generate key here"; //chttps://aesencryption.net/
+	std::string aes_iv = "Generate key here"; //https://aesencryption.net/
 
 }; extern CLogin g_Login;
