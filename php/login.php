@@ -10,9 +10,9 @@ $action = $_GET['action'];
 $user = ($_GET['username']);
 $password = ($_GET['password']);
 
-$key = 'aes key'; // 32 bytes
+$key = 'change key here same as Clogin.h'; // 32 bytes
 
-$iv  = 'aes iv'; // 16 bytes
+$iv  = 'change key here same as Clogin.h'; // 16 bytes
 
 $method = 'aes-256-cfb';
 
